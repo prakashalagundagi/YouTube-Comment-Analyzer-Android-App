@@ -1,109 +1,177 @@
-# YouTube Comment Analyzer Android App
+📱 YouTube Comment Analyzer (Android Application)
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/40ecfbdd-42f2-4487-ba5b-1eba9be4f5d9" />
 
-An Android application that analyzes YouTube video comments and identifies frequently asked questions by viewers.
 
-## Features
+The YouTube Comment Analyzer is an Android-based application designed to analyze user comments from YouTube videos and identify the most frequently asked questions. The application helps in understanding audience concerns, common doubts, and trending queries in a structured and efficient manner.
 
-- Accept YouTube video URLs
-- Retrieve comments using YouTube Data API v3
-- Identify questions from viewer comments
-- Count and rank repeated questions
-- Display top 50 most asked questions
-- Performance optimized for fast analysis (3-6 seconds)
+🎯 Objective
 
-## Setup Instructions
+The primary objective of this application is to:
 
-### 1. Get YouTube Data API Key
+Extract comments from a given YouTube video
 
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project or select existing one
-3. Enable YouTube Data API v3
-4. Create credentials (API Key)
-5. Copy the API key
+Identify question-based comments
 
-### 2. Configure API Key
+Analyze and rank frequently asked questions
 
-Open `YouTubeApiManager.kt` and replace the placeholder:
+Provide quick insights into viewer interactions
 
-```kotlin
-private val API_KEY = "YOUR_YOUTUBE_API_KEY_HERE" // Replace with your API key
-```
+❓ Why This Application Was Developed
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/321d31fd-e286-460d-ab9a-ef148ed668bf" />
 
-### 3. Build and Run
 
-1. Open the project in Android Studio
-2. Sync Gradle dependencies
-3. Run the app on an emulator or physical device
+With the rapid growth of online content, YouTube creators receive thousands of comments on their videos. Manually reading and analyzing these comments is time-consuming and inefficient.
 
-## App Components
+This application was developed to:
 
-### Main Activity
-- Handles the main screen UI
-- Accepts YouTube URL input
-- Displays analysis results
-- Manages background processing
+⏱️ Reduce the time required to analyze large volumes of comments
 
-### API Manager
-- Communicates with YouTube Data API v3
-- Extracts video ID from URLs
-- Fetches video comments (limited to 300 for performance)
+🧠 Help creators understand common viewer doubts quickly
 
-### Comment Parser
-- Cleans and normalizes comment text
-- Removes HTML tags and emojis
-- Prepares data for analysis
+📊 Provide structured insights instead of raw comment data
 
-### Question Detector
-- Identifies comments containing questions
-- Detects question words and patterns
-- Filters out non-question content
+🎯 Improve content quality by focusing on frequently asked questions
 
-### Question Counter
-- Counts repeated questions
-- Normalizes similar questions
-- Ranks by frequency
+💬 Enhance interaction between creators and their audience
 
-## Performance Optimizations
+✨ Key Features
 
-- Limited to first 300 comments for faster processing
-- Background threading for API calls
-- Efficient counting algorithms
-- Optimized text processing
+🔗 Accepts YouTube video URLs
 
-## Usage
+🌐 Retrieves comments using YouTube Data API v3
 
-1. Enter a YouTube video URL in the input field
-2. Click "Analyze Comments"
-3. Wait for analysis to complete (3-6 seconds)
-4. View the top 50 most asked questions with viewer counts
+❓ Detects questions from user comments
 
-## Example Output
+🔁 Groups and counts repeated questions
 
-```
-Top Viewer Questions
+📊 Displays top 50 most frequently asked questions
 
-1. How to install Python? (42 viewers)
-2. Why is my code not working? (30 viewers)
-3. Can you make React tutorial? (18 viewers)
-```
+⚡ Optimized for fast processing (3–6 seconds)
 
-## Requirements
+⚙️ System Setup
+1. API Configuration
 
-- Android 8.0+ (API level 28)
-- Internet connection
-- YouTube Data API key
+Create a project in Google Cloud Console
 
-## Future Improvements
+Enable YouTube Data API v3
 
-- Detect viewer suggestions
-- Sentiment analysis (positive/negative)
-- Graphical analytics dashboard
-- AI-based question grouping
-- Export results to CSV/JSON
+Generate an API Key
 
-## Dependencies
+Integrate the key into the application
 
-- YouTube Data API v3
-- Retrofit for HTTP requests
-- Coroutines for background processing
-- Jetpack Compose for UI
+2. Application Setup
+
+Open the project in Android Studio
+
+Sync Gradle dependencies
+
+Run on emulator or physical device
+
+🧩 Application Architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/becbe6b6-5d02-42bf-9f26-83b521697d10" />
+<img width="1024" height="937" alt="image" src="https://github.com/user-attachments/assets/3459fce1-886b-45bc-ac27-16e273a61a12" />
+
+🔹 Main Activity
+
+Manages user interface
+
+Accepts video URL input
+
+Displays analysis results
+
+Handles background execution
+
+🔹 API Manager
+
+Communicates with YouTube Data API
+
+Extracts video ID from URL
+
+Fetches up to 300 comments for efficiency
+
+🔹 Comment Parser
+
+Cleans and normalizes comment text
+
+🔹 Question Detector
+
+Identifies question patterns
+
+🔹 Question Counter
+
+Counts and ranks questions
+
+⚡ Performance Optimization
+
+🚀 Limits processing to first 300 comments
+
+🔄 Uses Kotlin Coroutines for background tasks
+
+🧠 Efficient text processing algorithms
+
+⏱️ Ensures quick response time
+
+📊 How to Use
+
+
+https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7
+
+
+
+📥 Enter Video URL
+https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7
+▶️ Start Analysis
+Tap Analyze Comments
+
+⏳ Wait
+Processing takes 3–6 seconds
+
+📈 View Results
+Top 50 questions will be shown
+
+🔍 Analyze Insights
+Understand user queries easily
+
+🎥 Demo Video
+https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7
+📌 Sample Output
+![WhatsApp Image 2026-03-17 at 10 00 06 PM](https://github.com/user-attachments/assets/7de2d47b-6ebf-4add-b326-0cfcca0be07c)
+![WhatsApp Image 2026-03-17 at 10 00 06 PM (1)](https://github.com/user-attachments/assets/b2707d9e-03b4-4d4e-9934-f199091dfa98)
+
+Top Viewer Questions:
+
+How to install Python? (42 viewers)
+
+Why is my code not working? (30 viewers)
+
+Can you provide a React tutorial? (18 viewers)
+
+📋 System Requirements
+
+📱 Android 8.0+ (API Level 28 or higher)
+
+🌐 Internet connection
+
+🔑 YouTube API Key
+
+🔮 Future Enhancements
+
+📈 Sentiment analysis
+
+💡 Suggestion detection
+
+📊 Graph dashboard
+
+🤖 AI grouping
+
+📤 Export data
+
+🛠️ Technologies Used
+
+YouTube Data API v3
+
+Retrofit
+
+Kotlin Coroutines
+
+Jetpack Compose
