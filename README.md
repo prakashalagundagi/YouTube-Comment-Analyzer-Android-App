@@ -1,12 +1,9 @@
 📱 YouTube Comment Analyzer (Android Application)
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/40ecfbdd-42f2-4487-ba5b-1eba9be4f5d9" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/40ecfbdd-42f2-4487-ba5b-1eba9be4f5d9" width="600"/> </p>
 
-
-The YouTube Comment Analyzer is an Android-based application designed to analyze user comments from YouTube videos and identify the most frequently asked questions. The application helps in understanding audience concerns, common doubts, and trending queries in a structured and efficient manner.
+The YouTube Comment Analyzer is an Android application that analyzes comments from YouTube videos and identifies the most frequently asked questions. It helps in understanding audience concerns, common doubts, and trending queries efficiently.
 
 🎯 Objective
-
-The primary objective of this application is to:
 
 Extract comments from a given YouTube video
 
@@ -17,126 +14,110 @@ Analyze and rank frequently asked questions
 Provide quick insights into viewer interactions
 
 ❓ Why This Application Was Developed
-<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/321d31fd-e286-460d-ab9a-ef148ed668bf" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/321d31fd-e286-460d-ab9a-ef148ed668bf" width="600"/> </p>
 
+With the rapid growth of online content, YouTube creators receive thousands of comments. Manually analyzing them is time-consuming.
 
-With the rapid growth of online content, YouTube creators receive thousands of comments on their videos. Manually reading and analyzing these comments is time-consuming and inefficient.
+This application helps to:
 
-This application was developed to:
+⏱️ Reduce analysis time
 
-⏱️ Reduce the time required to analyze large volumes of comments
+🧠 Understand viewer doubts quickly
 
-🧠 Help creators understand common viewer doubts quickly
+📊 Provide structured insights
 
-📊 Provide structured insights instead of raw comment data
+🎯 Improve content quality
 
-🎯 Improve content quality by focusing on frequently asked questions
-
-💬 Enhance interaction between creators and their audience
+💬 Enhance creator–audience interaction
 
 ✨ Key Features
 
 🔗 Accepts YouTube video URLs
 
-🌐 Retrieves comments using YouTube Data API v3
+🌐 Uses YouTube Data API v3
 
-❓ Detects questions from user comments
+❓ Detects questions from comments
 
-🔁 Groups and counts repeated questions
+🔁 Groups repeated questions
 
-📊 Displays top 50 most frequently asked questions
+📊 Displays top 50 questions
 
-⚡ Optimized for fast processing (3–6 seconds)
+⚡ Fast analysis (3–6 seconds)
 
 ⚙️ System Setup
 1. API Configuration
 
-Create a project in Google Cloud Console
+Create project in Google Cloud Console
 
 Enable YouTube Data API v3
 
-Generate an API Key
+Generate API Key
 
-Integrate the key into the application
+Add it to your project
 
 2. Application Setup
 
-Open the project in Android Studio
+Open in Android Studio
 
-Sync Gradle dependencies
+Sync Gradle
 
-Run on emulator or physical device
+Run on emulator/device
 
 🧩 Application Architecture
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/becbe6b6-5d02-42bf-9f26-83b521697d10" /><img width="1024" height="937" alt="image" src="https://github.com/user-attachments/assets/3459fce1-886b-45bc-ac27-16e273a61a12" />
-
-
+<p align="center"> <img src="https://github.com/user-attachments/assets/becbe6b6-5d02-42bf-9f26-83b521697d10" width="45%"/> <img src="https://github.com/user-attachments/assets/3459fce1-886b-45bc-ac27-16e273a61a12" width="45%"/> </p>
 🔹 Main Activity
 
-Manages user interface
+Handles UI
 
-Accepts video URL input
+Accepts input
 
-Displays analysis results
-
-Handles background execution
+Displays results
 
 🔹 API Manager
 
-Communicates with YouTube Data API
+Fetches comments
 
-Extracts video ID from URL
-
-Fetches up to 300 comments for efficiency
+Extracts video ID
 
 🔹 Comment Parser
 
-Cleans and normalizes comment text
+Cleans text
 
 🔹 Question Detector
 
-Identifies question patterns
+Detects question patterns
 
 🔹 Question Counter
 
-Counts and ranks questions
+Counts & ranks questions
 
 ⚡ Performance Optimization
 
-🚀 Limits processing to first 300 comments
+🚀 Limited to 300 comments
 
-🔄 Uses Kotlin Coroutines for background tasks
+🔄 Uses Kotlin Coroutines
 
-🧠 Efficient text processing algorithms
+🧠 Efficient text processing
 
-⏱️ Ensures quick response time
+⏱️ Fast response
 
 📊 How to Use
+<p align="center"> <img src="https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7" width="45%"/> <img src="https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7" width="45%"/> </p>
 
+📥 Enter YouTube URL
 
-https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7
+▶️ Click Analyze Comments
 
+⏳ Wait 3–6 seconds
 
+📈 View top questions
 
-📥 Enter Video URL
-https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7
-▶️ Start Analysis
-Tap Analyze Comments
-
-⏳ Wait
-Processing takes 3–6 seconds
-
-📈 View Results
-Top 50 questions will be shown
-
-🔍 Analyze Insights
-Understand user queries easily
+🔍 Analyze insights
 
 🎥 Demo Video
-https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7
+<p align="center"> <a href="https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7"> ▶️ Click to Watch Demo </a> </p>
 📌 Sample Output
-![WhatsApp Image 2026-03-17 at 10 00 06 PM](https://github.com/user-attachments/assets/7de2d47b-6ebf-4add-b326-0cfcca0be07c)
-![WhatsApp Image 2026-03-17 at 10 00 06 PM (1)](https://github.com/user-attachments/assets/b2707d9e-03b4-4d4e-9934-f199091dfa98)
+<p align="center"> <img src="https://github.com/user-attachments/assets/7de2d47b-6ebf-4add-b326-0cfcca0be07c" width="45%"/> <img src="https://github.com/user-attachments/assets/b2707d9e-03b4-4d4e-9934-f199091dfa98" width="45%"/> </p>
 
 Top Viewer Questions:
 
@@ -146,9 +127,9 @@ Why is my code not working? (30 viewers)
 
 Can you provide a React tutorial? (18 viewers)
 
-📋 System Requirements
+📋 Requirements
 
-📱 Android 8.0+ (API Level 28 or higher)
+📱 Android 8.0+
 
 🌐 Internet connection
 
@@ -160,11 +141,11 @@ Can you provide a React tutorial? (18 viewers)
 
 💡 Suggestion detection
 
-📊 Graph dashboard
+📊 Analytics dashboard
 
-🤖 AI grouping
+🤖 AI-based grouping
 
-📤 Export data
+📤 Export (CSV/JSON)
 
 🛠️ Technologies Used
 
