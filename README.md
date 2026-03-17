@@ -3,7 +3,7 @@
 
 The YouTube Comment Analyzer is an Android application that analyzes comments from YouTube videos and identifies the most frequently asked questions. It helps in understanding audience concerns, common doubts, and trending queries efficiently.
 
-🎯 Objective
+<h1>🎯 Objective</h1>
 
 Extract comments from a given YouTube video
 
@@ -13,7 +13,7 @@ Analyze and rank frequently asked questions
 
 Provide quick insights into viewer interactions
 
-❓ Why This Application Was Developed
+<h1>❓ Why This Application Was Developed</h1>
 <p align="center"> <img src="https://github.com/user-attachments/assets/321d31fd-e286-460d-ab9a-ef148ed668bf" width="600"/> </p>
 
 With the rapid growth of online content, YouTube creators receive thousands of comments. Manually analyzing them is time-consuming.
@@ -30,7 +30,7 @@ This application helps to:
 
 💬 Enhance creator–audience interaction
 
-✨ Key Features
+<h1>✨ Key Features</h1>
 
 🔗 Accepts YouTube video URLs
 
@@ -63,7 +63,7 @@ Sync Gradle
 
 Run on emulator/device
 
-🧩 Application Architecture
+<h1>🧩 Application Architecture</h1>
 <p align="center"> <img src="https://github.com/user-attachments/assets/becbe6b6-5d02-42bf-9f26-83b521697d10" width="45%"/> <img src="https://github.com/user-attachments/assets/3459fce1-886b-45bc-ac27-16e273a61a12" width="45%"/> </p>
 🔹 Main Activity
 
@@ -101,7 +101,7 @@ Counts & ranks questions
 
 ⏱️ Fast response
 
-📊 How to Use
+<h1>📊 How to Use</h1>
 <p align="center"> <img src="https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7" width="45%"/> <img src="https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7" width="45%"/> </p>
 
 📥 Enter YouTube URL
@@ -127,7 +127,7 @@ Why is my code not working? (30 viewers)
 
 Can you provide a React tutorial? (18 viewers)
 
-📋 Requirements
+<h2>📋 Requirements</h2>
 
 📱 Android 8.0+
 
