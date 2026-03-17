@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M54,54 m-54,0 a54,54 0,1,1,108,0 a54,54 0,1,1,-108,0"/>
+    
+    <!-- Play button -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,36 L42,72 L72,54 Z"/>
+    
+    <!-- Comment lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,84 L78,84 L78,88 L30,88 Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,90 L66,90 L66,94 L30,94 Z"/>
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,96 L72,96 L72,100 L30,100 Z"/>
+</vector>
