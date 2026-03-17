@@ -1,4 +1,4 @@
-📱 YouTube Comment Analyzer (Android Application)
+<h1>📱 YouTube Comment Analyzer (Android Application)</h1>
 <p align="center"> <img src="https://github.com/user-attachments/assets/40ecfbdd-42f2-4487-ba5b-1eba9be4f5d9" width="600"/> </p>
 
 The YouTube Comment Analyzer is an Android application that analyzes comments from YouTube videos and identifies the most frequently asked questions. It helps in understanding audience concerns, common doubts, and trending queries efficiently.
