@@ -68,8 +68,8 @@ Sync Gradle dependencies
 Run on emulator or physical device
 
 🧩 Application Architecture
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/becbe6b6-5d02-42bf-9f26-83b521697d10" />
-<img width="1024" height="937" alt="image" src="https://github.com/user-attachments/assets/3459fce1-886b-45bc-ac27-16e273a61a12" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/becbe6b6-5d02-42bf-9f26-83b521697d10" /><img width="1024" height="937" alt="image" src="https://github.com/user-attachments/assets/3459fce1-886b-45bc-ac27-16e273a61a12" />
+
 
 🔹 Main Activity
 
