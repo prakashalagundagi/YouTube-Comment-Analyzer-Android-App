@@ -119,40 +119,42 @@ Counts & ranks questions
 📌 Sample Output
 <p align="center"> <img src="https://github.com/user-attachments/assets/7de2d47b-6ebf-4add-b326-0cfcca0be07c" width="45%"/> <img src="https://github.com/user-attachments/assets/b2707d9e-03b4-4d4e-9934-f199091dfa98" width="45%"/> </p>
 
+==============================
+📌 Sample Output
+==============================
+
 Top Viewer Questions:
 
-How to install Python? (42 viewers)
+- How to install Python? (42 viewers)
+- Why is my code not working? (30 viewers)
+- Can you provide a React tutorial? (18 viewers)
 
-Why is my code not working? (30 viewers)
 
-Can you provide a React tutorial? (18 viewers)
-
+==============================
 📋 Requirements
+==============================
 
-📱 Android 8.0+
+- Android 8.0+
+- Internet connection
+- YouTube API Key
 
-🌐 Internet connection
 
-🔑 YouTube API Key
-
+==============================
 🔮 Future Enhancements
+==============================
 
-📈 Sentiment analysis
+- Sentiment analysis
+- Suggestion detection
+- Analytics dashboard
+- AI-based grouping
+- Export (CSV / JSON)
 
-💡 Suggestion detection
 
-📊 Analytics dashboard
-
-🤖 AI-based grouping
-
-📤 Export (CSV/JSON)
-
+==============================
 🛠️ Technologies Used
+==============================
 
-YouTube Data API v3
-
-Retrofit
-
-Kotlin Coroutines
-
-Jetpack Compose
+- YouTube Data API v3
+- Retrofit
+- Kotlin Coroutines
+- Jetpack Compose
