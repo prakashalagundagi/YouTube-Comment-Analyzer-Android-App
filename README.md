@@ -101,9 +101,7 @@ Counts & ranks questions
 
 ⏱️ Fast response
 
-<h1>📊 How to Use</h1>
-<p align="center"> <img src="https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7" width="45%"/> <img src="https://github.com/user-attachments/assets/7535b3a7-a2e3-48d1-b5b1-67c61b327ed7" width="45%"/> </p>
-
+<h2>📊 How to Use</h2>
 📥 Enter YouTube URL
 
 ▶️ Click Analyze Comments
