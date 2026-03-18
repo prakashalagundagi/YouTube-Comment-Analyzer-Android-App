@@ -1,4 +1,5 @@
 # Debug Instructions for YouTube Comment Analyzer
+#this app all instructions is given already in Readme.md file go through that
 
 ## How to Debug the App:
 
