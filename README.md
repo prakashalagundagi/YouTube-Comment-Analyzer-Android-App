@@ -20,7 +20,7 @@ With the rapid growth of online content, YouTube creators receive thousands of c
 
 This application helps to:
 
-⏱️ Reduce analysis time
+⏱️ Reduce the creators time 
 
 🧠 Understand viewer doubts quickly
 
