@@ -40,7 +40,7 @@ This application helps to:
 
 🔁 Groups repeated questions
 
-📊 Displays top 50 questions
+📊 Displays top 50 questions and Shows the top Liked comments 
 
 ⚡ Fast analysis (3–6 seconds)
 
