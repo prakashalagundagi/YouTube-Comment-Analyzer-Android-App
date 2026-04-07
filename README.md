@@ -18,7 +18,7 @@ Provide quick insights into viewer interactions
 
 With the rapid growth of online content, YouTube creators receive thousands of comments. Manually analyzing them is time-consuming.
 
-This application helps to:
+This App is used to help for 
 
 ⏱️ Reduce the creators time 
 
